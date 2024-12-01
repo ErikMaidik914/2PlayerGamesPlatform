@@ -3,4 +3,4 @@ The games are:
 -Chess
 -Obstruction Game
 -Darts
--Connect 4
+-Connect 4.
