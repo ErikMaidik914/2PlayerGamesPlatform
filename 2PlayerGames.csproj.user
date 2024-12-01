@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\AIDifficultySelection.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ChessGameGUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ChessGameModeSelection.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Connect4GameGUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DartGameGUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\HistoryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\LoadingPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\NewGameDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ObstructionGameGUI.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ObstructionGameMode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\OpponentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ProfilePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\StatsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\AIDifficultySelection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ChessGameGUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ChessGameModeSelection.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Connect4GameGUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DartGameGUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\HistoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\LoadingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\NewGameDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ObstructionGameGUI.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ObstructionGameMode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\OpponentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ProfilePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\StatsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ChessStarDificultyButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ObstructionDifficultyButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

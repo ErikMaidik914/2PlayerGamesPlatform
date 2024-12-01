@@ -1,0 +1,127 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_2PlayerGames</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="domain\NewFolder1\**" />
+    <Compile Remove="domain\NewFolder\**" />
+    <EmbeddedResource Remove="domain\NewFolder1\**" />
+    <EmbeddedResource Remove="domain\NewFolder\**" />
+    <None Remove="domain\NewFolder1\**" />
+    <None Remove="domain\NewFolder\**" />
+    <Page Remove="domain\NewFolder1\**" />
+    <Page Remove="domain\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\avatar.png" />
+    <None Remove="Images\BishopB.png" />
+    <None Remove="Images\BishopW.png" />
+    <None Remove="Images\black-circle.png" />
+    <None Remove="Images\Board.png" />
+    <None Remove="Images\connect4-board.png" />
+    <None Remove="Images\dart-board.png" />
+    <None Remove="Images\Dartboard.png" />
+    <None Remove="Images\devil.png" />
+    <None Remove="Images\diamond-rank.png" />
+    <None Remove="Images\Human.png" />
+    <None Remove="Images\KingB.png" />
+    <None Remove="Images\KingW.png" />
+    <None Remove="Images\KnightB.png" />
+    <None Remove="Images\KnightW.png" />
+    <None Remove="Images\o-symbol.png" />
+    <None Remove="Images\p1-avatar.png" />
+    <None Remove="Images\p2-avatar.png" />
+    <None Remove="Images\PawnB.png" />
+    <None Remove="Images\PawnW.png" />
+    <None Remove="Images\QueenB.png" />
+    <None Remove="Images\QueenW.png" />
+    <None Remove="Images\red-circle.png" />
+    <None Remove="Images\Robot.png" />
+    <None Remove="Images\RookB.png" />
+    <None Remove="Images\RookW.png" />
+    <None Remove="Images\settings-icon.png" />
+    <None Remove="Images\sleepy.png" />
+    <None Remove="Images\star.png" />
+    <None Remove="Images\sunglasses.png" />
+    <None Remove="Images\trophy.png" />
+    <None Remove="Images\white-circle.png" />
+    <None Remove="Images\x-symbol.png" />
+    <None Remove="Images\yellow-circle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="dotenv.net" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\avatar.png" />
+    <Resource Include="Images\BishopB.png" />
+    <Resource Include="Images\BishopW.png" />
+    <Resource Include="Images\black-circle.png" />
+    <Resource Include="Images\Board.png" />
+    <Resource Include="Images\connect4-board.png" />
+    <Resource Include="Images\dart-board.png" />
+    <Resource Include="Images\Dartboard.png" />
+    <Resource Include="Images\devil.png" />
+    <Resource Include="Images\diamond-rank.png" />
+    <Resource Include="Images\Human.png" />
+    <Resource Include="Images\KingB.png" />
+    <Resource Include="Images\KingW.png" />
+    <Resource Include="Images\KnightB.png" />
+    <Resource Include="Images\KnightW.png" />
+    <Resource Include="Images\o-symbol.png" />
+    <Resource Include="Images\p1-avatar.png" />
+    <Resource Include="Images\p2-avatar.png" />
+    <Resource Include="Images\PawnB.png" />
+    <Resource Include="Images\PawnW.png" />
+    <Resource Include="Images\QueenB.png" />
+    <Resource Include="Images\QueenW.png" />
+    <Resource Include="Images\red-circle.png" />
+    <Resource Include="Images\Robot.png" />
+    <Resource Include="Images\RookB.png" />
+    <Resource Include="Images\RookW.png" />
+    <Resource Include="Images\settings-icon.png" />
+    <Resource Include="Images\sleepy.png" />
+    <Resource Include="Images\star.png" />
+    <Resource Include="Images\sunglasses.png" />
+    <Resource Include="Images\trophy.png" />
+    <Resource Include="Images\white-circle.png" />
+    <Resource Include="Images\x-symbol.png" />
+    <Resource Include="Images\yellow-circle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="dotenv.net" />
+    <Using Include="System.Data.SqlClient" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

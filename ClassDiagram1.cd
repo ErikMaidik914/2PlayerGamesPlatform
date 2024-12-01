@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_2PlayerGames.ChessBoard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAggBBAAAAEABABAAIAAAAAAAACAEgAA=</HashCode>
+      <FileName>domain\Boards\ChessBoard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.Connect4Board" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAAAABAAAAEABABAAIAAAAAAACCAAEAA=</HashCode>
+      <FileName>domain\Boards\Connect4Board.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.DartsBoard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAACgABASEAAgJHIAAAUQBABAAIAAAAACAACAAAAA=</HashCode>
+      <FileName>domain\Boards\DartsBoard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.ObstructionBoard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAAAABAAAAEABABBAIAABAAAACCAAAAA=</HashCode>
+      <FileName>domain\Boards\ObstructionBoard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.Games" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAABAAAAABAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>domain\DatabaseObjects\Games.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2PlayerGames.GameState" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgECQAAAAAAAAAAAAADKAAEQABAgBAAAAAAAAAAAACA=</HashCode>
+      <FileName>domain\DatabaseObjects\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2PlayerGames.Player" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAgEgABAAAQACAAAAAAAgAIAAAAAIAA=</HashCode>
+      <FileName>domain\DatabaseObjects\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2PlayerGames.DartsGame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAABAAAAAAFAAEAAAAAABAAAAAAAAAgCAAIAA=</HashCode>
+      <FileName>domain\GameObjects\DartsGame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.ChessPiece" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABDAQAAABAAACIAAAAAAADAAAAAAAQAACAA=</HashCode>
+      <FileName>domain\GamePieces\ChessPiece.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_2PlayerGames.Connect4Piece" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAQAAAAAAACAAAAAAAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>domain\GamePieces\Connect4Piece.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.DartsBolt" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAQAAAAAAACAAAAAAAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>domain\GamePieces\DartsBolt.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.KingPiece">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\KingPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2PlayerGames.ObstructionPiece" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAQAAAAAAACAAAAAAAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>domain\GamePieces\ObstructionPiece.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.RookPiece">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\RookPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_2PlayerGames.domain.GameObjects.ChessGame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAABAAAAAAFAAEAAAAAABAAAAAAAAAgCAAIAA=</HashCode>
+      <FileName>domain\GameObjects\ChessGame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.domain.GameObjects.Connect4Game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GameObjects\Connect4Game.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_2PlayerGames.domain.GameObjects.ObstructionGame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAABAAAAAAFAAEAAAAAABAAAAAAAAAgCAAIAA=</HashCode>
+      <FileName>domain\GameObjects\ObstructionGame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BishopPiece">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\BishopPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightPiece">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\KnightPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PawnPiece">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\PawnPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueenPiece">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\QueenPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="_2PlayerGames.IBoard" Collapsed="true">
+    <Position X="20.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAAAAAAAAAEABAAAAIAAAAAAAACAAAAA=</HashCode>
+      <FileName>domain\Boards\IBoard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_2PlayerGames.IGame" Collapsed="true">
+    <Position X="22" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgCAAIAA=</HashCode>
+      <FileName>domain\GameObjects\IGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_2PlayerGames.IChessPiece">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\GamePieces\IChessPiece.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_2PlayerGames.IPiece">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>domain\GamePieces\IPiece.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="_2PlayerGames.PieceSymbol" Collapsed="true">
+    <Position X="23.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAQAA=</HashCode>
+      <FileName>domain\Enums\PieceSymbol.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_2PlayerGames.domain.Enums.ChessModes" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAEAA=</HashCode>
+      <FileName>domain\Enums\ChessModes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_2PlayerGames.domain.Enums.PieceColor" Collapsed="true">
+    <Position X="22" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAQIAAAAAAAABAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>domain\Enums\PieceColor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
